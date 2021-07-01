@@ -2,6 +2,7 @@ data/json/*
 
 #Google service account credentials key
 data/key/*
+data/*
 
 .ipynb_checkpoints/*
 
