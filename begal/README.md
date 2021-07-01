@@ -141,7 +141,7 @@ def get_query(table_name: str, start_date: str, end_date: str) -> str:
 
 
 # Reorganise by Project pre_process()
-
+```
 |index                     |event_date|event_timestamp |event_name          |user_pseudo_id                  |subjectId                           |engagement_time_msec|message_type|projectId      |
 |--------------------------|----------|----------------|--------------------|--------------------------------|------------------------------------|--------------------|------------|---------------|
 |2019-12-03 08:00:02.811000|20191203  |1575360002811000|notification_receive|9a04xxxxxxxxxxxxxxxxxxxxxxxe15b|eee17b85-xxxx-xxxx-xxxx-e9d5dd557dd6|                    |display     |STAGING_PROJECT|
@@ -190,8 +190,8 @@ def get_query(table_name: str, start_date: str, end_date: str) -> str:
 |2020-04-12 10:27:28.237070|20200412  |1586687248237070|user_engagement     |bc0787e6a3a025f641e0fcb2f98bb2f0|2b9f23d2-78cb-4ca4-9e98-6ab1219fb1b5|812                 |            |STAGING_PROJECT|
 |2020-04-12 10:31:25.138002|20200412  |1586687485138002|user_engagement     |836faf8525c94da7cd0ae69bf9fbc5b2|2b9f23d2-78cb-4ca4-9e98-6ab1219fb1b5|4761                |            |STAGING_PROJECT|
 |2020-04-12 10:31:37.646007|20200412  |1586687497646007|user_engagement     |836faf8525c94da7cd0ae69bf9fbc5b2|2b9f23d2-78cb-4ca4-9e98-6ab1219fb1b5|12491               |            |STAGING_PROJECT|
+```
 
-
-
+#output the separate projects by file.
 
 
